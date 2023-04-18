@@ -6,7 +6,8 @@
 <h1 align="center">docsify-demo</h1>
 
 [HTML](html/)
-[Vue](vue/20230328-Vue第一节课) 
+[Vue](vue/Vue第一节课) 
+[JavaScript](JavaScript/JS简介/readme_part1.md) 
 [Server](https://github.com/Snailclimb/docsify-demo)
 [Git版本控制](BookLog学习笔记/git版本控制) 
 [开始阅读](#docsify-demo) 
