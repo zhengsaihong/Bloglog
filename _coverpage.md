@@ -3,11 +3,12 @@
 <p align="center">
 <img src="./images/logo_1.jpg" width="200" height="200" />
 </p>
-<h1 align="center">docsify-demo</h1>
+<p>你好，很高兴认识你，这里是十一的笔记，感谢您的使用！！</p>
 
-[HTML](html/)
-[Vue](vue/Vue第一节课) 
+[docsify](docsify/quickstart.md)
+[Vue](vue/Vue第一节课.md) 
 [JavaScript](JavaScript/JS简介/readme_part1.md) 
-[Server](https://github.com/Snailclimb/docsify-demo)
 [Git版本控制](BookLog学习笔记/git版本控制) 
-[开始阅读](#docsify-demo) 
+[开始阅读](/) 
+
+<!-- [Server](https://github.com/Snailclimb/docsify-demo) -->
