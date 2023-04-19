@@ -14,10 +14,10 @@
     * [代码高亮](docsify/language-highlight.md)
 
 * 指南
-    * [配置](docsify/deploy.md)
     * [扩展的Markdown语法](docsify/helpers.md)
     * [兼容vue](docsify/vue.md)
     * [cdn](docsify/cdn.md)
     * [离线缓存](docsify/pwa.md)
     * [服务器渲染](docsify/ssr.md)
     * [文件嵌入](docsify/embed.md)
+    <!-- * [配置](docsify/deploy.md) -->
