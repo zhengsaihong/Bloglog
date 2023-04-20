@@ -8,30 +8,39 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> -->
-  <!-- <link rel="stylesheet" href="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/vue.css"> -->
+  <link rel="stylesheet" href="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/vue.css">
 
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css" /> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css" />
 
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" />
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css" /> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" /> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css" />
+
+  <!-- 压缩过 -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css"> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css"> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/pure.css"> -->
 
 </head>
 
 <body>
-  <div id="app"></div>
+  <div id="app">正在加载中，请稍后.......</div>
   <script>
     window.$docsify = {
       name: 'doc',
       repo: 'https://github.com/zhengsaihong/VueGuide',
-      onlyCover: false,
+      themeColor: "#GH4F46",//初始化主题颜色
+
+      el: "#app", //挂载
+      onlyCover: true, //设置网页封面 是否要固定封面
+      
       maxLevel: 5,//最大支持渲染的标题层级
-      subMaxLevel: 3,
+      subMaxLevel: 5,
       homepage: 'README.md',
       coverpage: true,    //网站封面
-
-      loadSidebar: true,    //侧边栏文件
+      locaNavbar: false,                      //为 true 时会加载一个顶部导航菜单，默认从_navbar.md加载
+      loadSidebar: true,    //侧边栏文件 为 true 时会加载一个左侧导航菜单，默认从_sidebar.md加载。
       subMaxLevel: 2,
-
       auto2top: true,//切换页面后是否自动跳转到页面顶部
 
 
